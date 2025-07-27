@@ -9,7 +9,7 @@ NC='\033[0m' # No Color
 # Welcome banner
 echo -e "Welcome to ${GREEN}HyperShell v1.0${NC}"
 echo "All rights reserved."
-echo "Type 'help' to see available commands."
+echo "Type 'help' or '--h' to see available commands."
 echo
 
 # History array
@@ -30,6 +30,7 @@ while true; do
         echo "  date      - Show current date and time"
         echo "  history   - Show command history"
         echo "  version   - Show shell version"
+        echo "  pwd       - Show current working directory"
         echo "  exit      - Exit the shell"
 
     # Clear screen
